@@ -1,0 +1,81 @@
+/* 
+    Created on : 31-Oct-2018, 10:26:42 PM
+    Author     : Anmol Nagpal (Sheridan College))
+*/
+body{
+    margin:0;
+    padding:0;
+}
+
+div{
+    position:absolute;
+    width:20%;
+    height:100%;
+    z-index:-1;
+}
+
+#first{
+    left:0;
+    background-color:lightcoral;
+    box-shadow:1px 1px 15px black;
+}
+
+#first > p{
+    position:relative;
+    width:100%;
+    text-align:center;
+    top:50px;
+    
+}
+
+#second{
+    right:0;
+    background-color:lightblue;
+    box-shadow:1px 1px 15px black;
+}
+
+#second > p{
+    position:absolute;
+    width:100%;
+    text-align:center;
+    bottom:50px;
+}
+
+table{
+    margin: 0 auto 50px auto;
+    z-index:5;
+    font-weight: lighter;
+}
+
+caption{
+    font-size:2.5em;
+    margin-bottom:5%;
+}
+
+td{
+    width:100px;
+    height:100px;
+    background-color:transparent;
+}
+
+.midv{
+    border-left:2px solid black;
+    border-right:2px solid black;
+}
+
+#midh td{
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+    font-size:1em;
+    padding:15px 35px;
+    width:50px;
+    display:block;
+    background-color:black;
+    margin:auto;
+    text-transform: uppercase;
+}
